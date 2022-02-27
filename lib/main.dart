@@ -4,11 +4,10 @@ import 'package:firebaseloginsignup/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'login-page.dart';
-import 'signup_page.dart';
-import 'welcome_page.dart';
+
 
 // for firebase 
+//instagram @ codewithkashmir
 
 Future<void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
