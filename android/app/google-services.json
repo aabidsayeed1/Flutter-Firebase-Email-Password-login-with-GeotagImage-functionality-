@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "55665304739",
+    "project_id": "mazxhayup",
+    "storage_bucket": "mazxhayup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55665304739:android:fbac15e5db376b4b348b16",
+        "android_client_info": {
+          "package_name": "com.mazxhayup.app.db.firebaseloginsignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55665304739-7jsjfaf6oq8ssrb2i1m9li0jeogjbc3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeaz2nsEL-MMYcNL5Xx6dPTm6kAjQFrPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55665304739-7jsjfaf6oq8ssrb2i1m9li0jeogjbc3i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "55665304739-hstukdrdkjiapb2vnaglu20sonltrcrf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mazxhayup.app.db.firebaseloginsignup"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
