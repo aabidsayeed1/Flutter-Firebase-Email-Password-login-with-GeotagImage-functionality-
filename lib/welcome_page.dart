@@ -1,3 +1,4 @@
+import 'package:firebaseloginsignup/geoimage/geo_image.dart';
 import 'package:flutter/material.dart';
 
 import 'package:firebaseloginsignup/auth_controller.dart';
@@ -80,6 +81,33 @@ class WelcomePage extends StatelessWidget {
               child: Center(
                 child: Text(
                   'Sign out',
+                  style: TextStyle(
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white),
+                ),
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => GeoImage()));
+            },
+            child: Container(
+              width: size.width * 0.5,
+              height: size.height * 0.08,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30),
+                  image: DecorationImage(
+                      image: AssetImage('img/loginbtn.png'),
+                      fit: BoxFit.cover)),
+              child: Center(
+                child: Text(
+                  'Pick Image',
                   style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,

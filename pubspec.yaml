@@ -38,6 +38,14 @@ dependencies:
   firebase_auth: ^3.1.4
   firebase_core: ^1.8.0
 
+  image_picker: ^0.8.4+10
+  image: ^2.1.18
+  geolocator: ^7.0.3
+  geocoding: any
+  image_gallery_saver: ^1.5.0
+  permission_handler: ^9.2.0
+  fluttertoast:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
